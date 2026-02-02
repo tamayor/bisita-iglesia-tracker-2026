@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { AlertCircle, Wallet, Church, CheckCircle, AlertTriangle, LayoutGrid, LayoutList } from 'lucide-react';
 
 // --- 1. CONFIGURATION ---
-const CONTRIBUTION_AMOUNT = 50; // Amount per Sunday
+const CONTRIBUTION_AMOUNT = 100; // Amount per Sunday
 const DATES = [
   '2026-02-01', '2026-02-08', '2026-02-15', '2026-02-22',
   '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-03-29'
@@ -22,19 +22,31 @@ const DATES = [
 const RAW_MEMBERS = [
   {
     id: 1, name: 'Lex', status: 'active', missed: [
-      '2026-02-01', '2026-02-08', '2026-02-15', '2026-02-22',
+     '2026-02-08', '2026-02-15', '2026-02-22',
       '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-03-29'
     ]
   }, // Paid all
   {
     id: 2, name: 'Macabenta', status: 'active', missed: [
-      '2026-02-01', '2026-02-08', '2026-02-15', '2026-02-22',
+       '2026-02-08', '2026-02-15', '2026-02-22',
       '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-03-29'
     ]
   },
   {
     id: 3, name: 'Elly', status: 'active', missed: [
-      '2026-02-01', '2026-02-08', '2026-02-15', '2026-02-22',
+       '2026-02-08', '2026-02-15', '2026-02-22',
+      '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-03-29'
+    ]
+  },
+    {
+    id: 4, name: 'Keith', status: 'active', missed: [
+       '2026-02-08', '2026-02-15', '2026-02-22',
+      '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-03-29'
+    ]
+  },
+     {
+    id: 5, name: 'Tababa', status: 'active', missed: [
+      '2026-02-08', '2026-02-15', '2026-02-22',
       '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-03-29'
     ]
   },
